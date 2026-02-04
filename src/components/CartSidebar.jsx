@@ -196,8 +196,6 @@ function CartSidebar({ isOpen, closeCart, cartItems = [], updateQty }) {
           <div
             className="cart-footer"
             style={{
-              position: "absolute",
-              bottom: 0,
               width: "100%",
               padding: "15px",
               background: "#fff",

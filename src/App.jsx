@@ -10,7 +10,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   // Endpoint MockAPI Siswa
-  const API_URL = "https://6561ee54dcd355c08324587c.mockapi.io/products";
+  const API_URL = "https://6982f1d69c3efeb892a3c8c6.mockapi.io/products";
 
   useEffect(() => {
     fetch(API_URL)
